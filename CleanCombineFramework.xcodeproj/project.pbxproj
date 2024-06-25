@@ -27,6 +27,16 @@
 		83A434DB2C2A7EF800FA05AF /* ConveniencePublishersWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434DA2C2A7EF800FA05AF /* ConveniencePublishersWork.swift */; };
 		83A434DD2C2A7F1500FA05AF /* DebuggingIdentifiersWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434DC2C2A7F1500FA05AF /* DebuggingIdentifiersWork.swift */; };
 		83A434DF2C2A7F2E00FA05AF /* EssentialsWorkStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434DE2C2A7F2E00FA05AF /* EssentialsWorkStepView.swift */; };
+		83A434E32C2A99D700FA05AF /* ContentViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434E22C2A99D700FA05AF /* ContentViewList.swift */; };
+		83A434E52C2A9C5300FA05AF /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434E42C2A9C5300FA05AF /* DataAccess.swift */; };
+		83A434E72C2A9CEB00FA05AF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434E62C2A9CEB00FA05AF /* Constant.swift */; };
+		83A434EC2C2AA0C200FA05AF /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434EB2C2AA0C200FA05AF /* LogInModel.swift */; };
+		83A434EE2C2AA0E100FA05AF /* LogInModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434ED2C2AA0E100FA05AF /* LogInModelView.swift */; };
+		83A434F02C2AACB200FA05AF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434EF2C2AACB200FA05AF /* Log.swift */; };
+		83A434F22C2AACDA00FA05AF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434F12C2AACDA00FA05AF /* String.swift */; };
+		83A434F42C2AAD9000FA05AF /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434F32C2AAD9000FA05AF /* Shared.swift */; };
+		83A434F72C2AAE0700FA05AF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434F62C2AAE0700FA05AF /* Common.swift */; };
+		83A434F92C2AAEF500FA05AF /* My.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A434F82C2AAEF500FA05AF /* My.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +61,16 @@
 		83A434DA2C2A7EF800FA05AF /* ConveniencePublishersWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveniencePublishersWork.swift; sourceTree = "<group>"; };
 		83A434DC2C2A7F1500FA05AF /* DebuggingIdentifiersWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingIdentifiersWork.swift; sourceTree = "<group>"; };
 		83A434DE2C2A7F2E00FA05AF /* EssentialsWorkStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsWorkStepView.swift; sourceTree = "<group>"; };
+		83A434E22C2A99D700FA05AF /* ContentViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewList.swift; sourceTree = "<group>"; };
+		83A434E42C2A9C5300FA05AF /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		83A434E62C2A9CEB00FA05AF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		83A434EB2C2AA0C200FA05AF /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		83A434ED2C2AA0E100FA05AF /* LogInModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModelView.swift; sourceTree = "<group>"; };
+		83A434EF2C2AACB200FA05AF /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		83A434F12C2AACDA00FA05AF /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		83A434F32C2AAD9000FA05AF /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		83A434F62C2AAE0700FA05AF /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		83A434F82C2AAEF500FA05AF /* My.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +103,9 @@
 		83A4349C2C2A777E00FA05AF /* CleanCombineFramework */ = {
 			isa = PBXGroup;
 			children = (
-				83A434E02C2A7F4600FA05AF /* DataAccess */,
 				83A434AB2C2A779000FA05AF /* AppLifeCycle */,
+				83A434F52C2AADF400FA05AF /* Common */,
+				83A434E02C2A7F4600FA05AF /* DataAccess */,
 				83A434AD2C2A77B600FA05AF /* Resource */,
 				83A434AC2C2A77A300FA05AF /* Application */,
 				83A434A32C2A778000FA05AF /* Preview Content */,
@@ -112,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				83A434BF2C2A7D7F00FA05AF /* FromLoginWabook */,
+				83A434E12C2A99B500FA05AF /* ContenView */,
 				83A434BD2C2A7ADA00FA05AF /* Essentials */,
 				83A434AF2C2A782D00FA05AF /* Publisher */,
 				83A434BE2C2A7B0400FA05AF /* Publishers */,
@@ -122,8 +144,8 @@
 				83A434B72C2A7A0F00FA05AF /* Schedulers */,
 				83A434B82C2A7A1C00FA05AF /* Combine Migration */,
 				83A434B92C2A7A2E00FA05AF /* Observable Objects */,
-				83A434BB2C2A7A5A00FA05AF /* Encoders and Decoders */,
 				83A434BA2C2A7A3D00FA05AF /* Asynchronus Publishrs */,
+				83A434BB2C2A7A5A00FA05AF /* Encoders and Decoders */,
 				83A434B52C2A79ED00FA05AF /* Connectable Publishers */,
 				83A434B42C2A79C100FA05AF /* Convenience Publishers */,
 				83A434BC2C2A7A7E00FA05AF /* Debugging Identifiers */,
@@ -263,6 +285,8 @@
 		83A434BF2C2A7D7F00FA05AF /* FromLoginWabook */ = {
 			isa = PBXGroup;
 			children = (
+				83A434EA2C2AA09D00FA05AF /* Model */,
+				83A434E92C2AA09400FA05AF /* ModelView */,
 				83A434C02C2A7DBF00FA05AF /* LoginFormView.swift */,
 			);
 			path = FromLoginWabook;
@@ -271,8 +295,54 @@
 		83A434E02C2A7F4600FA05AF /* DataAccess */ = {
 			isa = PBXGroup;
 			children = (
+				83A434E42C2A9C5300FA05AF /* DataAccess.swift */,
+				83A434E62C2A9CEB00FA05AF /* Constant.swift */,
+				83A434EF2C2AACB200FA05AF /* Log.swift */,
+				83A434F12C2AACDA00FA05AF /* String.swift */,
+				83A434F32C2AAD9000FA05AF /* Shared.swift */,
+				83A434F82C2AAEF500FA05AF /* My.swift */,
 			);
 			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		83A434E12C2A99B500FA05AF /* ContenView */ = {
+			isa = PBXGroup;
+			children = (
+				83A434E82C2AA08B00FA05AF /* View */,
+				83A434E22C2A99D700FA05AF /* ContentViewList.swift */,
+			);
+			path = ContenView;
+			sourceTree = "<group>";
+		};
+		83A434E82C2AA08B00FA05AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83A434E92C2AA09400FA05AF /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				83A434ED2C2AA0E100FA05AF /* LogInModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		83A434EA2C2AA09D00FA05AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83A434EB2C2AA0C200FA05AF /* LogInModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83A434F52C2AADF400FA05AF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83A434F62C2AAE0700FA05AF /* Common.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,24 +415,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A434F42C2AAD9000FA05AF /* Shared.swift in Sources */,
 				83A434D92C2A7EDF00FA05AF /* ConnectablePublishersWork.swift in Sources */,
 				83A434CF2C2A7E6300FA05AF /* SchedulersWork.swift in Sources */,
 				83A434DF2C2A7F2E00FA05AF /* EssentialsWorkStepView.swift in Sources */,
+				83A434EE2C2AA0E100FA05AF /* LogInModelView.swift in Sources */,
 				83A434D72C2A7EBC00FA05AF /* AsynchronusPublishrsWork.swift in Sources */,
 				83A434C52C2A7E0500FA05AF /* PublishersWork.swift in Sources */,
 				83A434CB2C2A7E4000FA05AF /* HandleErrorWork.swift in Sources */,
 				83A434CD2C2A7E4D00FA05AF /* SubjectWork.swift in Sources */,
 				83A434DD2C2A7F1500FA05AF /* DebuggingIdentifiersWork.swift in Sources */,
+				83A434E32C2A99D700FA05AF /* ContentViewList.swift in Sources */,
 				83A434A02C2A777E00FA05AF /* ContentView.swift in Sources */,
 				83A4349E2C2A777E00FA05AF /* CleanCombineFrameworkApp.swift in Sources */,
+				83A434F72C2AAE0700FA05AF /* Common.swift in Sources */,
 				83A434D12C2A7E7700FA05AF /* CombineMigrationWork.swift in Sources */,
 				83A434D52C2A7E9E00FA05AF /* EncoderAndDecodersWork.swift in Sources */,
+				83A434F02C2AACB200FA05AF /* Log.swift in Sources */,
+				83A434F92C2AAEF500FA05AF /* My.swift in Sources */,
 				83A434C72C2A7E1400FA05AF /* SubscribeWork.swift in Sources */,
+				83A434E72C2A9CEB00FA05AF /* Constant.swift in Sources */,
+				83A434F22C2AACDA00FA05AF /* String.swift in Sources */,
+				83A434EC2C2AA0C200FA05AF /* LogInModel.swift in Sources */,
 				83A434DB2C2A7EF800FA05AF /* ConveniencePublishersWork.swift in Sources */,
 				83A434D32C2A7E8800FA05AF /* ObservableObjectWork.swift in Sources */,
 				83A434C12C2A7DBF00FA05AF /* LoginFormView.swift in Sources */,
 				83A434C32C2A7DEC00FA05AF /* PublisherWork.swift in Sources */,
 				83A434C92C2A7E2400FA05AF /* OperationWork.swift in Sources */,
+				83A434E52C2A9C5300FA05AF /* DataAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

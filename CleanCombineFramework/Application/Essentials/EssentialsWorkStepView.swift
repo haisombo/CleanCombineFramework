@@ -9,7 +9,9 @@ import SwiftUI
 
 struct EssentialsWorkStepView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // MARK: -Receiving and Handling Events with Combine
+        
+        Text("fEssential LifeCycles")
     }
 }
 
